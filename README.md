@@ -17,9 +17,9 @@ A clean and responsive landing page for **Legacia**, a Dolmar Land community loc
 
 | Model | Lot Area | Floor Area | Bedrooms | Bathrooms |
 |--------|---------:|-----------:|----------:|-----------:|
-| Ariana | 80 sqm | 50 sqm | 2 | 1 |
-| Bianca | 100 sqm | 65 sqm | 3 | 2 |
-| Celeste | 120 sqm | 80 sqm | 4 | 3 |
+| Sueño | 80 sqm | 51.5 sqm | 2 | 2 |
+| Fuerte | 80 sqm | 60.25 sqm | 3 | 2 |
+| Fortuna | 80 sqm | 66.56 sqm | 4 | 3 |
 
 ## 📍 Location
 
@@ -67,4 +67,4 @@ Replace these links with your own profiles.
 
 ---
 
-© 2026 Legacia | Dolmar Land Community
+© 2026 Park Real Estate Services
