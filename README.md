@@ -42,7 +42,7 @@ Baliuag, Bulacan
 Once GitHub Pages is enabled, your website will be available at:
 
 ```
-https://YOUR-GITHUB-USERNAME.github.io/REPOSITORY-NAME/
+https://parkres.github.io/Legacia/
 ```
 
 Example:
