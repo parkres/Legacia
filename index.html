@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Legacia | Dolmar Land Community</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f8f9fb;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80') center/cover;
+    color:#fff;
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero{
+    max-width:700px;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:#006d5b;
+    color:#fff;
+    padding:14px 32px;
+    border-radius:40px;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#009879;
+}
+
+section{
+    max-width:1200px;
+    margin:auto;
+    padding:70px 20px;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:36px;
+    color:#006d5b;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:25px;
+}
+
+.card h3{
+    color:#006d5b;
+    margin-bottom:10px;
+}
+
+.specs{
+    margin-top:15px;
+}
+
+.specs li{
+    list-style:none;
+    padding:6px 0;
+    border-bottom:1px solid #eee;
+}
+
+.location{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:40px;
+    align-items:center;
+}
+
+.location img{
+    width:100%;
+    border-radius:15px;
+}
+
+.info{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.info ul{
+    margin-top:20px;
+}
+
+.info li{
+    margin-bottom:10px;
+}
+
+footer{
+    background:#006d5b;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+}
+
+footer a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:600;
+}
+
+footer a:hover{
+    text-decoration:underline;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:40px;
+}
+
+.section-title h2{
+font-size:28px;
+}
+
+}
+</style>
+
+</head>
+<body>
+
+<header>
+
+<div class="hero">
+<h1>LEGACIA</h1>
+<p>
+A premier residential community by Dolmar Land located in
+<strong>Baliuag, Bulacan</strong>. Experience modern living with
+beautifully designed homes, peaceful surroundings, and easy access to
+essential establishments.
+</p>
+
+<a href="#models" class="btn">Explore House Models</a>
+
+</div>
+
+</header>
+
+<section id="models">
+
+<div class="section-title">
+<h2>House Models</h2>
+<p>Choose the home that perfectly fits your lifestyle.</p>
+</div>
+
+<div class="cards">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=900&q=80">
+
+<div class="card-content">
+
+<h3>Ariana Model</h3>
+
+<ul class="specs">
+<li><strong>Lot Area:</strong> 80 sqm</li>
+<li><strong>Floor Area:</strong> 50 sqm</li>
+<li><strong>Bedrooms:</strong> 2</li>
+<li><strong>Bathrooms:</strong> 1</li>
+</ul>
+
+</div>
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=900&q=80">
+
+<div class="card-content">
+
+<h3>Bianca Model</h3>
+
+<ul class="specs">
+<li><strong>Lot Area:</strong> 100 sqm</li>
+<li><strong>Floor Area:</strong> 65 sqm</li>
+<li><strong>Bedrooms:</strong> 3</li>
+<li><strong>Bathrooms:</strong> 2</li>
+</ul>
+
+</div>
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80">
+
+<div class="card-content">
+
+<h3>Celeste Model</h3>
+
+<ul class="specs">
+<li><strong>Lot Area:</strong> 120 sqm</li>
+<li><strong>Floor Area:</strong> 80 sqm</li>
+<li><strong>Bedrooms:</strong> 4</li>
+<li><strong>Bathrooms:</strong> 3</li>
+</ul>
+
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="section-title">
+<h2>Location</h2>
+</div>
+
+<div class="location">
+
+<img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80">
+
+<div class="info">
+
+<h3>Legacia, Baliuag, Bulacan</h3>
+
+<p>
+Strategically located in Baliuag, giving homeowners convenient access
+to commercial centers, schools, hospitals, and transport terminals.
+</p>
+
+<h4 style="margin-top:20px;">Nearby Key Establishments</h4>
+
+<ul>
+<li>SM City Baliwag</li>
+<li>WalterMart Baliwag</li>
+<li>Baliuag University</li>
+<li>St. Mary's College of Baliuag</li>
+<li>Baliuag District Hospital</li>
+<li>Puregold Baliwag</li>
+<li>Mercury Drug</li>
+<li>Public Market</li>
+<li>McDonald's & Jollibee</li>
+<li>NLEX via Pulilan Exit</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>Connect With Me</h3>
+
+<p style="margin:20px 0;">
+
+<a href="https://tiktok.com/@YOURUSERNAME" target="_blank">
+TikTok
+</a>
+
+|
+
+<a href="https://facebook.com/YOURPROFILE" target="_blank">
+Facebook
+</a>
+
+|
+
+<a href="https://instagram.com/YOURUSERNAME" target="_blank">
+Instagram
+</a>
+
+</p>
+
+<p>© 2026 Legacia • Dolmar Land Community</p>
+
+</footer>
+
+</body>
+</html>
